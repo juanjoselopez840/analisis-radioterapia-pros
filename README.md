@@ -6,13 +6,13 @@ El trabajo presenta un análisis de los **Patient Reported Outcomes (PROs)** reg
 
 ---
 
-## Objetivo
+## 🎯 Objetivo
 
 Caracterizar los síntomas reportados por pacientes durante tratamientos de radioterapia a partir de cuestionarios **Patient Reported Outcomes (PROs)**, identificando patrones según la región anatómica irradiada, la evolución temporal del tratamiento y los factores asociados con una mayor probabilidad de presentar síntomas moderados o severos mediante técnicas de ciencia de datos.
 
 ---
 
-## Metodología del estudio
+## 🔬 Metodología del estudio
 
 El análisis se desarrolló a partir de registros clínicos y cuestionarios **Patient Reported Outcomes (PROs)** obtenidos durante la práctica asistencial. La metodología combinó técnicas de preparación de datos, análisis exploratorio, análisis estadístico y aprendizaje automático para caracterizar la evolución de los síntomas e identificar los factores asociados con una mayor probabilidad de presentar síntomas moderados o severos.
 
@@ -24,7 +24,7 @@ El siguiente esquema resume las principales etapas desarrolladas durante el estu
 
 ---
 
-## Principales resultados
+## 📊 Principales resultados
 
 El análisis exploratorio permitió caracterizar la población de estudio y describir las principales variables demográficas y clínicas. La cohorte final estuvo compuesta por **438 pacientes** y **24.799 respuestas**, correspondientes a **28 síntomas unificados**, registradas durante el seguimiento de los tratamientos de radioterapia.
 
@@ -37,18 +37,18 @@ La siguiente figura resume las principales características de la cohorte analiz
 Posteriormente, se analizaron las asociaciones entre la severidad de los síntomas, la región anatómica irradiada y el tiempo transcurrido desde el inicio del tratamiento. Los resultados evidenciaron patrones diferenciales de severidad entre regiones, observándose una mayor concentración de síntomas moderados o severos entre los **30 y 60 días** desde el inicio del tratamiento, especialmente en pacientes tratados en **Cabeza y Cuello** y **Pelvis**.
 
 <p align="center">
-  <img src="figures/Heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
+  <img src="figures/heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
 </p>
 
 ---
 
-## Estructura del repositorio
+## 📁 Estructura del repositorio
 
 ```text
 analisis-radioterapia-pros/
 │
 ├── README.md
-├── Analisis de Radioterapia.ipynb
+├── analisis_radioterapia_pros.ipynb
 └── figures/
     ├── metodologia.png
     ├── resumen.png
@@ -57,7 +57,7 @@ analisis-radioterapia-pros/
 
 ---
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - Python
 - Jupyter Notebook
@@ -68,13 +68,13 @@ analisis-radioterapia-pros/
 
 ---
 
-## Disponibilidad de los datos
+## 🔒 Disponibilidad de los datos
 
 Los datos utilizados en este proyecto corresponden a registros clínicos provenientes del sistema **MOSAIQ (Elekta)** de un centro de salud privado de Argentina. Debido a que contienen información sensible de pacientes, no pueden ser compartidos públicamente. Este repositorio incluye el código desarrollado y las principales visualizaciones obtenidas durante el estudio.
 
 ---
 
-## Autor
+## 👨‍💻 Autor
 
 **Juan José López**
 
@@ -83,6 +83,6 @@ Universidad de Buenos Aires (UBA)
 
 ---
 
-## Citación
+## 📖 Citación
 
 Si este repositorio resulta de utilidad para trabajos académicos o de investigación, se agradece citar este proyecto y su correspondiente trabajo de tesis.

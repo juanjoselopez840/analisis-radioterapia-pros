@@ -19,7 +19,7 @@ El análisis se desarrolló a partir de registros clínicos y cuestionarios **Pa
 El siguiente esquema resume las principales etapas desarrolladas durante el estudio.
 
 <p align="center">
-  <img src="figures/metodología.png" alt="Metodología del estudio" width="900">
+  <img src="figures/metodologia.png" alt="Metodología del estudio" width="900">
 </p>
 
 ---
@@ -37,7 +37,7 @@ La siguiente figura resume las principales características de la cohorte analiz
 Posteriormente, se analizaron las asociaciones entre la severidad de los síntomas, la región anatómica irradiada y el tiempo transcurrido desde el inicio del tratamiento. Los resultados evidenciaron patrones diferenciales de severidad entre regiones, observándose una mayor concentración de síntomas moderados o severos entre los **30 y 60 días** desde el inicio del tratamiento, especialmente en pacientes tratados en **Cabeza y Cuello** y **Pelvis**.
 
 <p align="center">
-  <img src="figures/heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
+  <img src="figures/Heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
 </p>
 
 ---

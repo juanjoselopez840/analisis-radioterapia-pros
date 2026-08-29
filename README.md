@@ -48,7 +48,7 @@ Posteriormente, se analizaron las asociaciones entre la severidad de los síntom
 analisis-radioterapia-pros/
 │
 ├── README.md
-├── analisis_radioterapia_pros.ipynb
+├── analisis_radioterapia.ipynb
 └── figures/
     ├── metodologia.png
     ├── resumen.png

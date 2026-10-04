@@ -1,6 +1,6 @@
 # Análisis de síntomas reportados por pacientes (PROs) durante tratamientos de radioterapia
 
-Este repositorio contiene el código desarrollado en el marco del **Taller de Tesis** de la **Maestría en Ciencia de Datos** de la **Universidad de Buenos Aires (UBA)**.
+Este repositorio contiene el código desarrollado en el marco del **Trabajo Final de Especialización en Ciencia de Datos** de la **Universidad de Buenos Aires (UBA)**.
 
 El trabajo presenta un análisis de los **Patient Reported Outcomes (PROs)** registrados por pacientes durante tratamientos de radioterapia en un **centro de salud privado de Argentina**. A partir de estos reportes, se caracterizan los patrones de síntomas, su evolución a lo largo del tratamiento y los factores asociados con una mayor probabilidad de presentar síntomas moderados o severos.
 
@@ -85,11 +85,15 @@ Los datos utilizados en este proyecto corresponden a registros clínicos proveni
 
 **Juan José López**
 
-Taller de Tesis – Maestría en Ciencia de Datos  
-Universidad de Buenos Aires (UBA)
+Trabajo Final de Especialización en Ciencia de Datos  
+Universidad de Buenos Aires (UBA
 
 ---
 
 ## 📖 Citación
 
-Si este repositorio resulta de utilidad para trabajos académicos o de investigación, se agradece citar este proyecto y su correspondiente trabajo de tesis.
+Si este repositorio resulta de utilidad para trabajos académicos o de investigación, puede citarse como:
+
+> López, J. J. (2026). *Análisis de síntomas reportados por pacientes (PROs) durante tratamientos de radioterapia*. Trabajo Final de Especialización en Ciencia de Datos, Universidad de Buenos Aires (UBA). GitHub.
+
+Repositorio: https://github.com/juanjoselopez840/analisis-radioterapia-pros

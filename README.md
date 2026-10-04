@@ -37,7 +37,7 @@ La siguiente figura resume las principales características de la cohorte analiz
 El análisis permitió identificar **perfiles sintomáticos diferenciados según la región anatómica irradiada**, así como síntomas presentes de manera transversal en distintas regiones. Asimismo, se observó un patrón temporal en la severidad, con una mayor proporción de respuestas moderadas o severas entre los **30 y 60 días** desde el inicio del tratamiento.
 
 <p align="center">
-  <img src="figures/heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
+  <img src="figures/Heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
 </p>
 
 Mediante regresión logística se analizaron los factores asociados con la probabilidad de registrar respuestas moderadas o severas. El tipo de síntoma y el tiempo transcurrido desde el inicio del tratamiento concentraron las principales asociaciones, mientras que la técnica de radioterapia y el número de sesiones no mostraron asociaciones estadísticamente significativas.

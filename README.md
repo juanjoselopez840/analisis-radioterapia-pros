@@ -14,7 +14,7 @@ Caracterizar los síntomas reportados por pacientes durante tratamientos de radi
 
 ## 🔬 Metodología del estudio
 
-El análisis se desarrolló a partir de registros clínicos y cuestionarios **Patient Reported Outcomes (PROs)** obtenidos durante la práctica asistencial. La metodología combinó técnicas de preparación de datos, análisis exploratorio, análisis estadístico y aprendizaje automático para caracterizar la evolución de los síntomas e identificar los factores asociados con una mayor probabilidad de presentar síntomas moderados o severos.
+El análisis se desarrolló a partir de registros clínicos y cuestionarios **Patient Reported Outcomes (PROs)** obtenidos durante la práctica asistencial. La metodología combinó técnicas de preparación de datos, análisis exploratorio, modelado estadístico y aprendizaje automático para caracterizar los síntomas, analizar su distribución temporal e identificar factores asociados con una mayor probabilidad de presentar respuestas moderadas o severas. Finalmente, se incorporó un modelo longitudinal de efectos mixtos para considerar las mediciones repetidas de cada paciente.
 
 El siguiente esquema resume las principales etapas desarrolladas durante el estudio.
 
@@ -26,7 +26,7 @@ El siguiente esquema resume las principales etapas desarrolladas durante el estu
 
 ## 📊 Principales resultados
 
-El análisis exploratorio permitió caracterizar la población de estudio y describir las principales variables demográficas y clínicas. La cohorte final estuvo compuesta por **438 pacientes** y **24.799 respuestas**, correspondientes a **28 síntomas unificados**, registradas durante el seguimiento de los tratamientos de radioterapia.
+El análisis exploratorio permitió caracterizar la población de estudio y describir las principales variables demográficas y clínicas. La cohorte final estuvo compuesta por **438 pacientes** y **24.799 respuestas**, correspondientes a **28 síntomas unificados**, registradas durante el seguimiento de los tratamientos de radioterapia. El **78,5% de los pacientes** presentó al menos una respuesta correspondiente a un síntoma clasificado como moderado o severo.
 
 La siguiente figura resume las principales características de la cohorte analizada, incluyendo la distribución por rango etario, sexo, región anatómica irradiada y técnica de tratamiento.
 
@@ -34,11 +34,15 @@ La siguiente figura resume las principales características de la cohorte analiz
   <img src="figures/resumen.png" alt="Caracterización de la cohorte" width="900">
 </p>
 
-Posteriormente, se analizaron las asociaciones entre la severidad de los síntomas, la región anatómica irradiada y el tiempo transcurrido desde el inicio del tratamiento. Los resultados evidenciaron patrones diferenciales de severidad entre regiones, observándose una mayor concentración de síntomas moderados o severos entre los **30 y 60 días** desde el inicio del tratamiento, especialmente en pacientes tratados en **Cabeza y Cuello** y **Pelvis**.
+El análisis permitió identificar **perfiles sintomáticos diferenciados según la región anatómica irradiada**, así como síntomas presentes de manera transversal en distintas regiones. Asimismo, se observó un patrón temporal en la severidad, con una mayor proporción de respuestas moderadas o severas entre los **30 y 60 días** desde el inicio del tratamiento.
 
 <p align="center">
   <img src="figures/heatmap.png" alt="Asociación entre región anatómica y severidad de los síntomas" width="900">
 </p>
+
+Mediante regresión logística se analizaron los factores asociados con la probabilidad de registrar respuestas moderadas o severas. El tipo de síntoma y el tiempo transcurrido desde el inicio del tratamiento concentraron las principales asociaciones, mientras que la técnica de radioterapia y el número de sesiones no mostraron asociaciones estadísticamente significativas.
+
+Finalmente, se incorporó un **modelo lineal generalizado mixto (GLMM)** con intercepto aleatorio por paciente para considerar la estructura longitudinal y la dependencia entre mediciones repetidas. El modelo presentó un **ICC de 0,332** en escala latente y mantuvo una asociación significativa para el período comprendido entre los **31 y 60 días** respecto de los primeros 30 días (OR=1,95; IC95%: 1,73–2,19). Estos resultados muestran la relevancia de considerar la heterogeneidad entre pacientes al analizar la evolución de la severidad durante el tratamiento.
 
 ---
 
@@ -60,11 +64,14 @@ analisis-radioterapia-pros/
 ## 🛠️ Tecnologías utilizadas
 
 - Python
-- Jupyter Notebook
+- R
+- Jupyter Notebook / Google Colab
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
+- Statsmodels
+- glmmTMB
 
 ---
 
